@@ -11,13 +11,16 @@ void main()
   String password = 'abc123';
   int otp = 1234;
 
-  if(uname = 'admin' && password == 'abc123' );
+  if(uname == 'admin' && password == 'abc123' );
     {
       print('Login Successful!');
           if(otp == 1234)
             {
-              print("Welcome USER!");
+              print("Welcome USER! , OTP Login Success");
             }
+          else{
+            print('Email Login Failed');
+          }
     }
 
 
