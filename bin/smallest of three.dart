@@ -1,18 +1,10 @@
 void main() {
-  int a = 100, b = 150, c = 200;
-
-  if(a>b && b>c)
-    {
-      print("$a is the smallest ");
-    }
-
-  else if
-  {
-    print("$b is the smallest");
+  int a = 50, b = 150, c = 20;
+  if (a > b && c > b) {
+    print("$b is smaller than $a and $c");
+  } else if (b > c && a > c) {
+    print("$c is smaller than $b and $a");
+  } else {
+    print("$a is smaller than $b and $c");
   }
-
-  else {
-    print("$c is the smallest");
-  }
-
 }
