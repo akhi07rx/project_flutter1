@@ -11,7 +11,7 @@ import 'dart:io';
 //                    do{
 //                    //code to be executed
 //                    increment / decrement
-//                    }while (condition);
+//                    }while (condition)
 
 
 void main() {
