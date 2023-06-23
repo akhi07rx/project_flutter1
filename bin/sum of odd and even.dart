@@ -11,6 +11,7 @@ void main(){
         odd = odd+i;
       }
   }
+  print('Sum of even and odd number in between 1 and 10 in single program: \n');
   print('Even = $even ');
   print('Odd = $odd ');
 }
