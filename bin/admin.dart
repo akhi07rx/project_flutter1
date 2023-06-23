@@ -10,6 +10,7 @@ void main() {
   var user = username == 'Admin' ? true : "Incorrect Username";
   var pass = password == 123456 ? true : "Incorrect Password";
 
-  print(pass);
   print(user);
+  print(pass);
+
 }
