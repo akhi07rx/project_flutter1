@@ -1,35 +1,40 @@
-/// if, if - else, nested if-else , else if ladder, switch
+import 'dart:io';
 
-void main()
-{
-  print("Hi User");
-  int age =17;
+void main() {
+  print("Enter the first number: ");
+  int a = int.parse(stdin.readLineSync()!);
 
-  /// nested if
+  print("Enter the second number: ");
+  int b = int.parse(stdin.readLineSync()!);
 
-  print('Enter Username: ');
-  String? uname = stdin.readLineSync();
+  sum(a, b);
+  sub(a, b);
+  mul(a, b);
+  div(a, b);
+}
 
-  print('Enter Password: ');
-  int password = int.parse(stdin.readLineSync()!);
+int sum(int a, int b) {
+  int sum = a + b;
+  print("Sum = $sum");
+  return 0;
+}
+
+int sub(int a, int b) {
+  int sub = a - b;
+  print("SUb = $sub");
+  return 0;
+}
+
+int mul(int a, int b) {
+  int mul = a * b;
+  print("MUL = $mul");
+  return 0;
+}
 
 
-  String uname = 'admin';
-  String password = 'abc123';
-  int otp = 1234;
 
-  if(uname == 'admin' && password == 'abc123' );
-  {
-    print('Login Successful!');
-    if(otp == 1234)
-    {
-      print("Welcome USER! , OTP Login Success");
-    }
-    else{
-      print('Email Login Failed');
-    }
-  }
-
-
-  print("Thank You!");
+int div(int a, int b) {
+  int div = a / b;
+  print("Div= $div");
+  return 0;
 }
