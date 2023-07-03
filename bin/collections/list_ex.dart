@@ -42,7 +42,12 @@ void main() {
   // l5.add(10); cannot add to a fixed length list since l5 has initial value of growable = false
 
   //  6. List.generate
-  List l6 = List.generate(5, (index) => 8 * index);
+  List l6 = List.generate(5, (index) => 8 * index + 2);
+
+  // 7. List.unmodifiable
+  List l7 = List.unmodifiable(l6); // values from 16 added to 17
+  //l7[2] = 100;
+  //l7.add(1000);
 
   print('Literal List - $mylist');
   print('Literal List2 - $numbers');
@@ -52,4 +57,5 @@ void main() {
   print('l4 - $l4');
   print('l5 - $l5');
   print('l6 - $l6');
+  print('l7 - $l7');
 }
