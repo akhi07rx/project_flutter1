@@ -24,9 +24,26 @@ void main() {
   List l2 = List.empty(growable: true);
   l2.add(100);
   l2.addAll(numbers);
+  l2.insert(1, 50);
+
+  // 3. List.from
+  List l3 = List.from([1, 3, 5, 6, 7, 9]);
+  l3.addAll(numbers);
+
+  // 4. List.of
+  List l4 = List.of([1, 3, 5, 6, 7, 9]);
+  l3.addAll(numbers);
+
+// 4. List.filled
+  List l5 = List.filled(10, 2);
+  l5[1] = 3;
+  l5[5] = 5;
 
   print('Literal List - $mylist');
   print('Literal List2 - $numbers');
   print('l2 - $l1');
   print('l2 - $l2');
+  print('l3 - $l3');
+  print('l4 - $l4');
+  print('l5 - $l5');
 }
