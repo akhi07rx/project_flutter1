@@ -6,10 +6,22 @@ void main() {
     print(list[index]);
   }
 
-  print('\n \n');
+  print('\n');
 
   //2. For - in Loop syntax for(datatype-similar-to-list variable name in listname){}
   for (int i in list) {
     print(i);
   }
+
+
+  list.forEach((element)
+  {
+    print(element);
+  });
+  
+  int value = list.firstWhere((element) => element>2);
+  print(value);
+
+
+
 }
