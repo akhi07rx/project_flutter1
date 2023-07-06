@@ -21,7 +21,4 @@ void main() {
   
   int value = list.firstWhere((element) => element>2);
   print(value);
-
-
-
 }
