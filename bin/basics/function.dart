@@ -5,26 +5,26 @@ void main() {
   fun2(10, 20);
   print(func3());
   //or
-  int data_from_func3= func3();
-  print('Function 3 => $data_from_func3');  // value returned from fun3 stored in data_from_fuc3 and print statment from func3  executed
+  int dataFromFunc3= func3();
+  print('Function 3 => $dataFromFunc3');  // value returned from fun3 stored in data_from_fuc3 and print statment from func3  executed
   print(func4("AKHI", 20));
 
   //or
-  String data_from_func4 = func4("AKX", 20);// main function / builtin function
+  String dataFromFunc4 = func4("AKX", 20);// main function / builtin function
 
   void main() {
     func1();
     fun2(10, 20);
     print(func3());
     //or
-    int data_from_func3 = func3();
+    int dataFromFunc3 = func3();
     print(
-        'Function 3 => $data_from_func3'); // value returned from fun3 stored in data_from_fuc3 and print statement from func3  executed
+        'Function 3 => $dataFromFunc3'); // value returned from fun3 stored in data_from_fuc3 and print statement from func3  executed
     print(func4("AKHI", 20));
 
     //or
-    String data_from_func4 = func4("AKX", 20);
-    print('Function 4 => $data_from_func4');
+    String dataFromFunc4 = func4("AKX", 20);
+    print('Function 4 => $dataFromFunc4');
   }
 
   ///user defined function
@@ -54,7 +54,7 @@ void main() {
     return data;
   }
 
-  print('Function 4 => $data_from_func4');
+  print('Function 4 => $dataFromFunc4');
 }
 
 ///user defined function
