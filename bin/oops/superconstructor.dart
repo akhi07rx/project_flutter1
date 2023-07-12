@@ -4,6 +4,15 @@ class Parent {
   }
 }
 
+/*Parent(){
+print("Default constructor of parent");
+}
+
+Parent(){
+print("Parameterized constructor of parent");
+}
+*/
+
 class Child extends Parent {
   Child() : super('t1') {
     print("Default constructor of parent: ");
