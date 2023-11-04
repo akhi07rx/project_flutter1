@@ -32,11 +32,11 @@ class Child implements Father, Mother {
 }
 
 void main() {
-  Child o = Child();
-  o.fdetails("SAMMY", 50, "Business");
+  Child obj = Child();
+  obj.fdetails("SAMMY", 50, "Business");
   print("\n");
-  o.mdetails("DAISY", 50, "CA");
+  obj.mdetails("DAISY", 50, "CA");
   print("\n");
-  o.cdetails("SII", 22, "Flutter");
+  obj.cdetails("SII", 22, "Flutter");
   print("\n");
 }
